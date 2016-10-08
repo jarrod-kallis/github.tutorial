@@ -17,7 +17,7 @@ Untracked files:
 
 nothing added to commit but untracked files present (use "git add" to track)
 
-4. type (to add all untracked files): git add .
+4. type (to add all modified/new files to staging area): git add .
 
 5. type: git status
 Should see this:
@@ -32,4 +32,7 @@ Changes to be committed:
 
 6. type: git commit -m "inital commit"
 
-7. git log
+7. type: git log
+
+8. type (if changes made and not added to staging area) : git diff
+   type (if changes made and file added to staging area): git diff --cached
