@@ -39,3 +39,11 @@ Changes to be committed:
 
 8. type (if changes made and not added to staging area) : git diff
    type (if changes made and file added to staging area): git diff --cached
+
+9. Add a remote repository (on GitHub.com)
+   type: git remote add origin git@github.com:jarrod-kallis/github.tutorial.git
+   "git@github.com:jarrod-kallis/github.tutorial.git" comes from GitHub.com
+
+10. Push code to the remote repository
+    type: git push origin master
+    type in passphrase used when creating SSH key
