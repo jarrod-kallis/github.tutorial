@@ -17,4 +17,19 @@ Untracked files:
 
 nothing added to commit but untracked files present (use "git add" to track)
 
-4. type: git add .
+4. type (to add all untracked files): git add .
+
+5. type: git status
+Should see this:
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   readme.txt
+
+6. type: git commit -m "inital commit"
+
+7. git log
