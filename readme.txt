@@ -31,8 +31,10 @@ Changes to be committed:
         new file:   readme.txt
 
 6. type: git commit -m "inital commit"
+         git commit -a -m "add all modified/new files and commit"
 
 7. type: git log
+         git log --oneline
 
 8. type (if changes made and not added to staging area) : git diff
    type (if changes made and file added to staging area): git diff --cached
