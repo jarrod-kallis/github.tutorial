@@ -5,6 +5,7 @@ Should see this:
 Initialized empty Git repository in K:/Projects/GitProject/.git/
 
 3. type: git status
+         git status -s
 Should see this:
 On branch master
 
